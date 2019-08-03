@@ -1,0 +1,462 @@
+.top-header {
+    text-align: center
+}
+
+body {
+    background-image: url('https://assets.tumblr.com/images/x.gif?v=1');
+    background-size: cover;
+    background-position: center;
+}
+
+html, body {
+    background-color: #FAFAFA;
+    min-height: 100%;
+}
+
+.hide-image #header-overlay {
+    display: none
+}
+
+/** layout options **/
+
+#ind.not-mobile:not(.two-columns):not(.three-columns):not(.four-columns):not(.five-columns):not(.six-columns):not(.this-is-tag) .post-container {
+    margin: 25px;
+}
+
+#ind.this-is-tag .post-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#ind.not-mobile.two-columns .post-container, #ind.not-mobile.three-columns .post-container, #ind.not-mobile.four-columns .post-container, #ind.not-mobile.five-columns .post-container, #ind.not-mobile.six-columns .post-container {
+    margin: calc(25px / 2)
+}
+
+.post-container.text-based .post, .post-container:not(.text-based) .post .caption, .perma-post-notes {
+    font-family: 'hum', sans-serif, 'Arial'
+}
+
+a {
+    color: #f0b5d0;
+}
+
+#ind.not-mobile.two-fourpx .max-width-fix {
+    width: calc(800px + 25px * 4);
+}
+
+#ind.not-mobile.three-fourpx .max-width-fix {
+    width: calc(1200px + 25px * 6);
+}
+
+#ind.not-mobile.four-fourpx .max-width-fix {
+    width: calc(1600px + 25px * 8);
+}
+
+#ind.not-mobile.five-fourpx .max-width-fix {
+    width: calc(2000px + 25px * 10);
+}
+
+#ind.not-mobile.two-threepx .max-width-fix {
+    width: calc(600px + 25px * 4);
+}
+
+#ind.not-mobile.three-threepx .max-width-fix {
+    width: calc(900px + 25px * 6);
+}
+
+#ind.not-mobile.four-threepx .max-width-fix {
+    width: calc(1200px + 25px * 8);
+}
+
+#ind.not-mobile.five-threepx .max-width-fix {
+    width: calc(1500px + 25px * 10);
+}
+
+#ind.not-mobile.six-threepx .max-width-fix {
+    width: calc(1800px + 25px * 12);
+}
+
+#ind.not-mobile.two-twopx .max-width-fix {
+    width: calc(500px + 25px * 4);
+}
+
+#ind.not-mobile.three-twopx .max-width-fix {
+    width: calc(750px + 25px * 6);
+}
+
+#ind.not-mobile.four-twopx .max-width-fix {
+    width: calc(1000px + 25px * 8);
+}
+
+#ind.not-mobile.five-twopx .max-width-fix {
+    width: calc(1250px + 25px * 10);
+}
+
+#ind.not-mobile.six-twopx .max-width-fix {
+    width: calc(1500px + 25px * 12);
+}
+
+#ind.not-mobile.seven-twopx .max-width-fix {
+    width: calc(1750px + 25px * 14);
+}
+
+#ind.not-mobile.two-fivepx .max-width-fix {
+    width: calc(1000px + 25px * 4);
+}
+
+#ind.not-mobile.three-fivepx .max-width-fix {
+    width: calc(1500px + 25px * 6);
+}
+
+#ind.not-mobile.two-sixxpx .max-width-fix {
+    width: calc(1200px + 25px * 4);
+}
+
+#ind.not-mobile.three-sixxpx .max-width-fix {
+    width: calc(1800px + 25px * 6);
+}
+
+#ind.not-mobile.two-sevenpx .max-width-fix {
+    width: calc(1400px + 25px * 4);
+}
+
+#ind.not-mobile.three-sevenpx .max-width-fix {
+    width: calc(2100px + 25px * 6);
+}
+
+/** layout optiosn **/
+
+/** sets post background color **/
+
+#posts .post, #posts .caption, .reblogged.index, .permalink-content li, .post_nav, .tags, .video-player, .player {
+    background-color: #fff
+}
+
+.lightbox-plugin .post_nav, .lightbox-plugin .reblogged {
+    background-color: #fff
+}
+
+/** sets post background color **/
+
+/** page navi color **/
+
+.load-more-container, .load-more-scroll-down {
+    color: #222222
+}
+
+.pagination a:not(.is-current) {
+    color: #222222
+}
+
+.pagination .is-current {
+    background-color: #222222;
+    border: 1px solid #222222;
+}
+
+.pagination li a {
+    border-bottom: 0px;
+}
+
+.pagination .is-current a {
+    color: #fff;
+    border-bottom: 0px;
+}
+
+.load-more-container {
+    font-family: baskervile;
+}
+
+/** page navi color **/
+
+/** footer **/
+
+#footer {
+    border-top: 1px solid #efefef;
+    background-color: transparent !Important;
+}
+
+#footer .center a {
+    color: #aeaeae
+}
+
+#footer .center a:hover {
+    color: #ea7474
+}
+
+#footer a, #footer, #credit, #credit, #copyright-content {
+    color: #222222;
+    font-family: hum;
+}
+
+/** footer **/
+
+/** text **/
+
+.post.link .link, .post.text h3 a, .post.quote .source, .post.chat h3 a {
+    color: #222222;
+    font-family: Baskerville, 'Times New Roman', Times, serif;
+}
+
+.post-container.text-based .post, .post-container:not(.text-based) .post .caption {
+    color: #535353;
+}
+
+/** Posts **/
+
+a, .tags li a {
+    border-bottom: 1px solid
+}
+
+.tags li a {
+    color: #f0b5d0
+}
+
+.perma-post-notes .notes {
+    border-top: 0px !Important
+}
+
+.chat .label {
+    color: #535353
+}
+
+#header-overlay {
+    opacity: 0.7
+}
+
+.header {
+    background-color: #222222
+}
+
+.top-header a {
+    color: #f8cbd5;
+    font-family: Baskerville, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#left-header-menu a, #right-header-menu a {
+    color: #222222;
+    font-family: Baskerville, 'Times New Roman', Times, serif;
+}
+
+.menu-trigger {
+    color:
+}
+
+.header-description-content {
+    color: #ffffff;
+    font-family: Baskerville, 'Times New Roman', Times, serif
+}
+
+.description-socials a, .header-bottom-socials a {
+    color: #ffffff;
+}
+
+.description-socials a {
+    font-size: 12pt;
+}
+
+.description-socials {
+    margin-top: 5px
+}
+
+.hidden-menu {
+    background-color: #ffffff
+}
+
+.link-element a {
+    color: #222222;
+    font-family: Baskerville, 'Times New Roman', Times, serif;
+}
+
+.hidden-menu .close-hidden-menu {
+    color: #222222
+}
+
+.top-header {
+    background-color: #ffffff
+}
+
+.no-top-bg .top-header {
+    background-color: transparent
+}
+
+.no-top-bg .top-header:not(.animated) .top-title a, .no-top-bg .top-header:not(.animated) #right-header-menu a, .no-top-bg .top-header:not(.animated) #left-header-menu a, .no-top-bg .top-header:not(.animated) .menu-trigger {
+    color: #ffffff
+}
+
+.top-header.animated {
+    background-color: #ffffff
+}
+
+#ind.not-mobile #content-per {
+    margin-top: 25px
+}
+
+.footer-socials a {
+    color: #aeaeae;
+}
+
+.top-title {
+    font-size: 24px
+}
+
+.header-description p#description {
+    font-size: 24pt;
+    line-height: 160% !Important
+}
+
+.this-mobile.mobile-version .header-description p#description {
+    font-size: 23pt
+}
+
+.this-mobile .search-right {
+    display: none !Important
+}
+
+.mobile-version .header-description-content {
+    font-size: 25pt;
+    letter-spacing: normal;
+}
+
+.header-description-content img {
+    max-width: 100%
+}
+
+/** tag box options **/
+
+.persona-tags {
+    font-family: ;
+}
+
+.persona-tags a {
+    color:
+}
+
+.persona-tags span:hover a {
+    color:
+}
+
+.persona-tags span {
+    background-color: ;
+    border-radius: 18px;
+    ;
+    border: 1px solid;
+}
+
+.persona-tags span:hover {
+    background-color:
+}
+
+.persona-tags span.tags-all {
+    background-color: ;
+}
+
+.persona-tags span.tags-all a {
+    color: ;
+}
+
+/** tag box options **/
+
+/* fixes the title in right order */
+
+.tag-search input {
+    background-color: #ededed;
+    ;
+}
+
+.tag-search button {
+    color: #222222
+}
+
+#per.this-is-page .post-background .post.text {
+    background-color: !Important
+}
+
+#per.this-is-page .post.text p {
+    color: ;
+    font-family: ;
+}
+
+#per.this-is-page .post.text h3, #per.this-is-page .post.text h3 a {
+    color: ;
+    font-family: ;
+}
+
+nav {
+    display: inline-block
+}
+
+/** disables lightbox **/
+
+.disable-lightbox .light-tri {
+    display: none !Important
+}
+
+/** disables lightbox **/
+
+/** fixes extra left when menu overflow **/
+
+.overflow-menu #top-header-content {
+    left: 0px !Important
+}
+
+/** fixes extra left when menu overflow **/
+
+.top-header.align-center h1 {
+    display: none
+}
+
+.first-image-only, .first-image-only img {
+    display: block;
+    margin-bottom: -3px
+}
+
+.first-image-only img:not(:first-child) {
+    display: none;
+}
+
+.top-header {
+    background-color: #ffffff
+}
+
+html.no-tags.not-mobile #posts {
+    margin-top: 25px
+}
+
+html:not(.no-tags).not-mobile #posts {
+    margin-top: -25px
+}
+
+.this-mobile.mobile-version .photoset-frame-content, .this-mobile.mobile-version .video-content {
+    padding: 8px;
+    padding-bottom: 10px;
+    border-top: 1px solid #efefef;
+}
+
+.permaphotoset.photoset-frame-content {
+    display: block;
+}
+
+#header-wrapper {
+    display: inline-block
+}
+
+ul.tags {
+    border-bottom: 0px !Important
+}
+
+.hide-post-nav .post-container.photo .post_nav {
+    border-top: 0px !Important
+}
+
+.tmblr-iframe {
+    z-index: 9999999999 !Important;
+}
+
+#social_icons {
+    margin-top: 20px;
+}
+
+#per.this-mobile.mobile-version .max-width-fix {
+    margin-top: 8px;
+}

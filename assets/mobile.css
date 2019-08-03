@@ -1,0 +1,11 @@
+.this-mobile.mobile-version.portrait-mobile .hidden-body .show-mobile-lightbox, .this-mobile.mobile-version.portrait-mobile .photoset-frame-content iframe, .this-mobile.mobile-version.portrait-mobile body.hidden-body, .this-mobile.mobile-version.portrait-mobile .post-container {
+    width: 390px !important
+}
+
+.this-mobile.mobile-version.landscape-mobile .hidden-body .show-mobile-lightbox, .this-mobile.mobile-version.landscape-mobile .photoset-frame-content iframe, .this-mobile.mobile-version.landscape-mobile body.hidden-body, .this-mobile.mobile-version.landscape-mobile .post-container {
+    width: 600px !important
+}
+
+.landscape-mobile .top-header.animated {
+    display: none !Important
+}
