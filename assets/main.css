@@ -203,10 +203,6 @@ a {
 
 /** Posts **/
 
-a, .tags li a {
-    border-bottom: 1px solid
-}
-
 .tags li a {
     color: #f0b5d0
 }
@@ -280,7 +276,10 @@ a, .tags li a {
     background-color: transparent
 }
 
-.no-top-bg .top-header:not(.animated) .top-title a, .no-top-bg .top-header:not(.animated) #right-header-menu a, .no-top-bg .top-header:not(.animated) #left-header-menu a, .no-top-bg .top-header:not(.animated) .menu-trigger {
+.no-top-bg .top-header:not(.animated) .top-title a, 
+.no-top-bg .top-header:not(.animated) #right-header-menu a, 
+.no-top-bg .top-header:not(.animated) #left-header-menu a, 
+.no-top-bg .top-header:not(.animated) .menu-trigger {
     color: #ffffff
 }
 
@@ -314,7 +313,7 @@ a, .tags li a {
 }
 
 .mobile-version .header-description-content {
-    font-size: 25pt;
+    font-size: 1.2rem;
     letter-spacing: normal;
 }
 

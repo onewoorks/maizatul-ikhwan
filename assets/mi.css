@@ -1,0 +1,12 @@
+@font-face {
+    font-family: humaira;
+    src: url('./fonts/Humaira.otf');
+}
+
+.h2-huma {
+    font-family: humaira;
+}
+
+.hero-text {
+    font-family: 'News Cycle', sans-serif;
+}

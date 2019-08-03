@@ -241,39 +241,23 @@ function themeElement() {
 
 }
 
-
 function scrollHeaderEvt() {
     /* scroll actions */
-
-
-
     /** Scroll Header Animation **/
-
     if ($('#header-search').is(':focus')) {
         if ($(window).height() < $(window).scrollTop()) {
-
             $('html .top-header').addClass('animated')
             html.addClass('scrolled')
         } else {
-
-
         }
     } else {
-
         if ($(window).height() < $(window).scrollTop()) {
-
             $('html .top-header').addClass('animated')
             html.addClass('scrolled')
         } else {
-
             $('html .top-header').removeClass('animated')
             html.removeClass('scrolled')
-
-
-
         }
     }
 }
-
-
 /** takes header jqeuries **/
